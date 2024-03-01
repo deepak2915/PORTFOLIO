@@ -26,11 +26,13 @@ h2{
       
  }
  body{
-    background-image: url("portfolio..png");
+    background-image: url("BACKGORUND.png");
     background-repeat: no-repeat;
     background-position: center;
+  background-attachment: fixed;
+  
     background-size: cover;
-    height: 450vh;
+    height: 100vh;
     flex-wrap: wrap;
  }   
 
@@ -47,6 +49,7 @@ p{
     left: 10%; 
 
     }
+    
 
 .navbar ul{
     list-style: none;
@@ -61,12 +64,13 @@ p{
   
 }
 .navbar{
-    position:sticky;
-    top:0px;
-    z-index:2px;
+    width: 100%;
+position: fixed;
+display: flex;
+justify-content: end;
 }
 .navbar a{
-    
+
     text-decoration: none;
     width:100px;
     display: flex;
@@ -111,7 +115,7 @@ button:hover{
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    margin-top: 600px;
+    margin-top: 670px;
     margin-left:-950px;
     image-orientation: from-image;
 
@@ -121,8 +125,9 @@ button:hover{
     color:orange;
     font-weight:bold;
     font-size: 25px;
-    margin-top:40PX;
-    margin: 50PX;
+    margin-top:120PX;
+    margin-left: 50px;
+
 }
 /*SCHOOL*/
 .school{
@@ -131,7 +136,7 @@ button:hover{
     font-size:20px;
     margin-left:550PX;
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 180px;
     
 }
 /*DIPLOMO*/
@@ -160,8 +165,9 @@ button:hover{
     color:orange;
     font-weight:bold;
     font-size: 25px;
-    margin-top:250PX;
-    MARGIN:50PX;
+    margin-top:330PX;
+    margin-left:50px;
+   
 
 }
 .c{
@@ -212,24 +218,42 @@ font-size: 25px;
 margin-top:40PX;
 MARGIN:50PX;
 }
+.listofprojects{
+    margin: 10px;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 30px;
+   
 
+}
 /*CONTACT*/
 .contact{
     display: flex;
     color:orange;
     font-weight:bold;
     font-size: 25px;
-    margin-top:80PX;
-    MARGIN:50PX;
-    display :inline;
+    margin-top:100px;
+    margin-left: 50px;
+   
 }
+
+
 .linkedin i{
     display: flex;
     color:azure;
     margin-top:10PX;
     margin: 30PX;
     padding: 20px  0;
+
    
+}
+.github{
+    display: flex;
+    color:azure;
+    margin-top:10PX;
+    margin: 30PX;
+    padding: 20px  0;
+
 }
 .gmail i{
     display: flex;
