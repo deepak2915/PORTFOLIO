@@ -26,7 +26,7 @@ h2{
       
  }
  body{
-    background-image: url("BACKGORUND.png");
+    background-image: url("My\ PortFolio.png");
     background-repeat: no-repeat;
     background-position: center;
   background-attachment: fixed;
@@ -228,7 +228,6 @@ MARGIN:50PX;
 }
 /*CONTACT*/
 .contact{
-    display: flex;
     color:orange;
     font-weight:bold;
     font-size: 25px;
@@ -241,7 +240,7 @@ MARGIN:50PX;
 .linkedin i{
     display: flex;
     color:azure;
-    margin-top:10PX;
+    margin-top:100PX;
     margin: 30PX;
     padding: 20px  0;
 
@@ -260,7 +259,7 @@ MARGIN:50PX;
     color:azure;
     margin-top:10PX;
     margin: 30PX;
-    padding: 100px  0;
+    padding: 20px  0;
     
 }
 .phone i{
