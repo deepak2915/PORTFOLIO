@@ -227,9 +227,8 @@ MARGIN:50PX;
     color: antiquewhite;
     font-size: 20px;
     margin-left: 30px;
-   
-
 }
+
 /*CONTACT*/
 .contact{
     display: flex;
@@ -247,7 +246,7 @@ MARGIN:50PX;
     margin-top:100PX;
     margin: 30PX;
     padding: 20px  0;
-margin-left: 60px;
+    margin-left: 60px;
    
 }
 .github{
@@ -257,8 +256,6 @@ margin-left: 60px;
     margin: 30PX;
     padding: 20px  0;
     margin-left: 60px;
-
-
 }
 .gmail i{
     display: flex;
@@ -267,7 +264,7 @@ margin-left: 60px;
     margin: 30PX;
     padding: 20px  0; 
     margin-left: 60px;
-pointer-events: none;
+    pointer-events: none;
     text-decoration: none;
 }
 .phone i{
@@ -277,7 +274,5 @@ pointer-events: none;
     margin: 30PX;
     padding: 20px  0;
     margin-left: 60px;
-
-
 }
 
